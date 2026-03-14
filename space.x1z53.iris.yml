@@ -32,3 +32,6 @@ modules:
         url: https://altlinux.space/alt-gnome/iris
         tag: 0.2.0
         commit: f9d7b9fa845b121452cb4a6103e24c08a955286c
+        x-checker-data:
+          tag-pattern: ^([\d.]+)$
+          type: git
