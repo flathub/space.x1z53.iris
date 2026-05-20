@@ -40,9 +40,9 @@ modules:
     builddir: true
     sources:
       - type: git
-        url: https://altlinux.space/alt-gnome/iris
-        tag: 0.2.3
-        commit: 0a82baa1f81b8834751529144a5ca4dc67b0d4fc
+        url: https://altlinux.space/alt-gnome/iris.git
+        tag: 0.2.4
+        commit: e4bf7f3280682a76cb2593e9f37f4246141200d9
         x-checker-data:
           tag-pattern: ^([\d.]+)$
           type: git
