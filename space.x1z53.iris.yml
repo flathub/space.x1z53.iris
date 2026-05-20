@@ -15,6 +15,17 @@ cleanup:
   - /lib/pkgconfig
   - /share/vala
 modules:
+  - name: libcassette
+    buildsystem: meson
+    config-opts:
+      - -Dlib_only=true
+      - -Dinstall_lib_s=true
+    builddir: true
+    sources:
+      - type: git
+        url: https://altlinux.space/rirusha/Cassette.git
+        commit: 264ea72568cbc65bcfd350fb804b6d8c00def664
+
   - name: api-base
     buildsystem: meson
     builddir: true
