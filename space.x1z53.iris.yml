@@ -1,6 +1,6 @@
 id: space.x1z53.iris
 runtime: org.gnome.Platform
-runtime-version: "50"
+runtime-version: '50'
 sdk: org.gnome.Sdk
 command: iris
 finish-args:
@@ -41,8 +41,8 @@ modules:
     sources:
       - type: git
         url: https://altlinux.space/alt-gnome/iris.git
-        tag: 0.2.4
-        commit: e4bf7f3280682a76cb2593e9f37f4246141200d9
+        tag: 0.2.4.1
+        commit: a0dc0ded93ba81df38a6d57c368c93ff788e7678
         x-checker-data:
           tag-pattern: ^([\d.]+)$
           type: git
